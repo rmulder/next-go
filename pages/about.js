@@ -1,3 +1,5 @@
 import Layout from 'layouts/Main'
 
-export default () => <Layout>About Page</Layout>
+const About = () => <Layout>About Page</Layout>;
+
+export default About;

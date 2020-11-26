@@ -1,3 +1,5 @@
 import Layout from 'layouts/Main'
 
-export default () => <Layout>Contact Page</Layout>
+const Contact = () => <Layout>Contact Page</Layout>;
+
+export default Contact;

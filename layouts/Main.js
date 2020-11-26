@@ -3,21 +3,21 @@ import Wrapper from './Wrapper'
 import Nav from 'components/Nav'
 import Footer from 'components/Footer'
 
-export default ({ children, title = 'This is the default title' }) => (
-  <Wrapper>
-    <Head>
-      <title>{ title }</title>
-    </Head>
-    <header>
-      <Nav />
-    </header>
+const Main = ({ children, title = 'This is the default title' }) => <Wrapper>
+  <Head>
+    <title>{ title }</title>
+  </Head>
+  <header>
+    <Nav />
+  </header>
 
-    <main>
-      { children }
-    </main>
+  <main>
+    { children }
+  </main>
 
-    <Footer>
-      Footer
-    </Footer>
-  </Wrapper>
-)
+  <Footer>
+    Footer
+  </Footer>
+</Wrapper>;
+
+export default Main;

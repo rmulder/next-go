@@ -21,7 +21,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "standard": "^16.0.3",
-    "styled-components": "^2.2.1"
+    "styled-components": "^3.4.8"
   },
   "now": {
     "alias": "next-go"
